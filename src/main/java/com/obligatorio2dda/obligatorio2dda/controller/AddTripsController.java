@@ -24,7 +24,7 @@ public class AddTripsController {
   private ClientService clientService;
 
   @Autowired
-  private TripsRepository tripsRepository;
+  private TripsRepository tripsRepository; // Repository
 
   @Autowired
   private TripsServiceImp tripsServiceImp;
